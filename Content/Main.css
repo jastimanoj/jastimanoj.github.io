@@ -1,0 +1,311 @@
+﻿body {
+    font-family: 'Mate', serif, 'Jaldi', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+ .phoneNum {
+            right: 0px;
+            float: right;
+        }
+
+        div.navbar-header.brandHeader {
+            width: 100%;
+        }
+
+        .brandHeader a {
+            font-size: 30px;
+        }
+
+        /**/
+        @media (min-width:800px) {
+            .nav, .navbar-nav {
+            }
+        }
+
+        /*PC layout*/
+        @media (min-width:1200px) {
+        }
+
+        .carousel-container > .rows > .col-xs-12 {
+            padding: 0;
+        }
+
+        .body:after {
+            clear: both;
+        }
+
+/*Nav bar start*/
+/* auto generated navigation menu from http://bootstrap3-menu.codedorigin.com/#*/
+.navbar-inverse {
+    background-color: #F8F8F8;
+}
+
+    .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        background-color: #C72E2E;
+    }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #C72E2E;
+    }
+
+.dropdown-menu {
+    background-color: #FFFFFF;
+}
+
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        background-color: #C72E2E;
+    }
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: #080808;
+}
+
+    .navbar-inverse .navbar-brand {
+        color: #C72E2E;
+    }
+
+        .navbar-inverse .navbar-brand:hover {
+            color: #080808;
+        }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #999999;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+            color: #FFFFFF;
+        }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        color: #FFFFFF;
+    }
+
+        .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+            color: #FFFFFF;
+        }
+
+.dropdown-menu > li > a {
+    color: #333333;
+}
+
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        color: #FFFFFF;
+    }
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-bottom-color: #FFFFFF;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+
+/*Nav bar end*/
+
+
+
+/*Nav bar animation Effects*/
+.navbar-header {
+}
+/*Nav bar animation end*/
+.navbar {
+    position:relative;
+    margin-bottom:0px;
+}
+.restrict-image {
+width:350px;
+height:250px;
+}
+.restrict-image img{
+     max-height:100%;
+  max-width: 100%;
+}
+
+/*body styles*/
+.content-container {
+    display: block;
+    padding-bottom:100px;
+}
+/*body styles end*/
+
+
+
+/*Footer styles*/
+.footer {
+    padding: 10px;
+    display: table;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+}
+
+.copyRight p {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+}
+
+.about {
+    margin:20px 0px 20px 0px;
+}
+
+.footer-block-container .child {
+    text-align: center;
+    width: 100%;
+}
+
+
+.copyRight {
+font-size:20px;
+}
+
+.wrapper {
+    min-height:100%;
+position:relative;
+}
+
+.footer-wrapper {
+	width:100%;
+	height:100px;
+	position:static;
+	bottom:0;
+	left:0;
+    border-top:2px solid #C72E2E;
+}
+/*Footer end*/
+
+
+/*Carousel*/
+.carousel-inner img {
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+}
+/*carousel ends*/
+
+/*body*/
+.custom-font {
+    font-size: 20px;
+}
+
+.quick-questions, .quick-questions input,.quick-questions textarea {
+    display:block;
+    margin:10px auto;
+    padding:5px;
+    width:500px;
+}
+
+    .quick-questions p {
+     color:#c72e2e;
+     font-size:26px;
+     margin:10px auto;
+    }
+
+.quick-contact-heading p {
+
+}
+
+.disclaimer {
+cursor:pointer;
+
+}
+
+.privacy-policy {
+cursor:pointer;
+}
+
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+/*#tallModal .modal-body p {
+    margin-bottom: 900px;
+}*/
+
+.smallHeading {
+    font-size:24px;
+    color:#C72E2E;
+    margin:5px 0px 5px 0px;
+}
+
+    .smallHeading:after {
+        content:" :";
+    }
+
+    [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0;
+  top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/*body ends*/
